@@ -5,7 +5,7 @@ import {HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class ContagionService {
-  readonly rootURL = 'http://192.168.23.51:8083/api';
+  readonly rootURL = 'https://192.168.23.51:8083/api';
 
   constructor(public http : HttpClient) {
 

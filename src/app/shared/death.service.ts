@@ -5,7 +5,7 @@ import {HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class DeathService {
-  readonly rootURL = 'http://192.168.23.53:8084/api';
+  readonly rootURL = 'https://192.168.23.53:8084/api';
 
   constructor(public http : HttpClient) {
 
