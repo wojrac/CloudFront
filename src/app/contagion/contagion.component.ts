@@ -11,11 +11,11 @@ export class ContagionComponent implements OnInit {
   constructor(private service: ContagionService) { }
 
   ngOnInit(): void {
-      this.service.getAllContagions().subscribe(
+      /*this.service.getAllContagions().subscribe(
         res=>{
           this.contagions = res;
         }
-      )
+      )*/
   }
 
 }

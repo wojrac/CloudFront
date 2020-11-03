@@ -5,13 +5,14 @@ import {HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class ContagionService {
-  readonly rootURL = 'http://0.0.0.0:5002/api';
+  //readonly rootURL = 'http://192.168.70.205:5002/api';
 
   constructor(public http : HttpClient) {
 
    }
   getAllContagions()
   {
-    return this.http.get(this.rootURL + '/contagion');
+    //return this.http.get(this.rootURL + '/contagion');
+    return "CONTAGIONS";
   }
 }

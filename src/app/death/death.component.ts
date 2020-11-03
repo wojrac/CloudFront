@@ -11,11 +11,11 @@ export class DeathComponent implements OnInit {
   constructor(private service : DeathService) { }
 
   ngOnInit(): void {
-    this.service.getAllDeaths().subscribe(
+    /*this.service.getAllDeaths().subscribe(
       res=>{
         this.deaths = res;
       }
-    )
+    )*/
   }
 
 }
